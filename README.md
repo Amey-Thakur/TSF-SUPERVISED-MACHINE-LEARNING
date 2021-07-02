@@ -6,4 +6,4 @@ Simple Linear Regression is used as it involves just 2 variables.
 Output: To find predicted score if a student studies for 9.25 hrs/day.
 
 # TECHNOLOGIES AND LIBRARIES USED:
-Python3, Pandas, Numpy, matplotlib. pyplot, seaborn.
+Python3, Pandas, Numpy, Matplotlib.pyplot, Seaborn.
