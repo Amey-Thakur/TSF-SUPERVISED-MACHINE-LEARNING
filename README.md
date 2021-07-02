@@ -1,4 +1,4 @@
-# TSF-SUPERVISED-LEARNING-ML
+# TSF-SUPERVISED-MACHINE LEARNING
 Task: To predict the percentage of a student based on the number of study hours.
 
 Simple Linear Regrssion is used as it involves just 2 variables. 
