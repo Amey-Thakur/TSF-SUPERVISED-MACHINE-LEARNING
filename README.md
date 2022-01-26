@@ -1,6 +1,6 @@
 # THE SPARKS FOUNDATION - SUPERVISED MACHINE LEARNING
 
- >**TSF - SUPERVISED MACHINE LEARNING TASK-1**
+ >**TSF - SUPERVISED MACHINE LEARNING TASK - 1**
  
   - **[YouTube Video](https://www.youtube.com/watch?v=qsO9GyGNWf0)**
   - **[Google Colaboratory](https://github.com/Amey-Thakur/TSF-SUPERVISED-MACHINE-LEARNING/blob/main/TSF_INTERNSHIP_TASK_1_SUPERVISED_LEARNING.ipynb)**
