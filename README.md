@@ -26,4 +26,4 @@
 
 <p align="center"> <b> 👉🏻 Presented as a part of the Internship @ The Sparks Foundation 👈🏻 <b> </p>
  
-<p align="center"><a href='https://github.com/Amey-Thakur/ACHIEVEMENTS#engineering', style='color: greenyellow;'> ✌🏻 Back To Engineering ✌🏻</p>
+<p align="center"><a href='https://github.com/Amey-Thakur/TSF-SUPERVISED-MACHINE-LEARNING', style='color: greenyellow;'> ✌🏻 Back To Repository ✌🏻</p>
