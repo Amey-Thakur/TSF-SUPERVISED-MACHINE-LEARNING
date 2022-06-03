@@ -14,10 +14,16 @@
 
  - **_Task: To predict the percentage of a student based on the number of study hours._**
 
- - **_Simple Linear Regression is used as it involves just 2 variables._**
+   - **_Simple Linear Regression is used as it involves just 2 variables._**
 
- - **_Output: To find predicted score if a student studies for 9.25 hrs/day._**
+   - **_Output: To find predicted score if a student studies for 9.25 hrs/day._**
 
 ## TECHNOLOGIES AND LIBRARIES USED:
  
  - Python3, Pandas, Numpy, Matplotlib.pyplot, Seaborn.
+
+---
+
+<p align="center"> <b> 👉🏻 Presented as a part of the Internship @ The Sparks Foundation 👈🏻 <b> </p>
+ 
+<p align="center"><a href='https://github.com/Amey-Thakur/ACHIEVEMENTS#engineering', style='color: greenyellow;'> ✌🏻 Back To Engineering ✌🏻</p>
