@@ -2,11 +2,11 @@
 
 ## Maintenance Status
 
-This repository is part of a curated collection of academic and engineering projects and is maintained in a finalized and stable state. The project is preserved as a complete and authoritative record, with its scope and contents intentionally fixed to ensure long-term academic and professional reference.
+This repository is part of a curated collection of academic, engineering, and internship projects and is maintained in a finalized and stable state. The project is preserved as a complete and authoritative record, with its scope and contents intentionally fixed to ensure long-term academic and professional reference.
 
 ## Supported Versions
 
-As a finalized project, only the version listed below is authoritative:
+As a finalized internship project, only the version listed below is authoritative:
 
 | Version | Supported |
 | ------- | --------- |
@@ -14,7 +14,7 @@ As a finalized project, only the version listed below is authoritative:
 
 ## Vulnerability Reporting Protocol
 
-In accordance with established academic and professional standards for security disclosure, security-related observations associated with this project are documented through formal scholarly channels.
+In accordance with established academic and professional standards for security disclosure, security-related observations associated with this internship project are documented through formal scholarly channels.
 
 To document a security concern, communication is facilitated with the project curators:
   - **Curator**: [Amey Thakur](https://github.com/Amey-Thakur)
@@ -34,8 +34,8 @@ This project consists of an implementation of a Simple Linear Regression model t
 
 ## Technical Integrity Statement
 
-This repository is preserved as a fixed academic and engineering project. Security-related submissions are recorded for documentation and contextual reference and do not imply active monitoring, response obligations, or subsequent modification of the repository.
+This repository is preserved as a fixed academic, engineering, and internship project. Security-related submissions are recorded for documentation and contextual reference and do not imply active monitoring, response obligations, or subsequent modification of the repository.
 
 ---
 
-*This document defines the security posture of a finalized Python project.*
+*This document defines the security posture of a finalized internship project.*
