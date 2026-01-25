@@ -2,7 +2,7 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "name": "THE SPARKS FOUNDATION - SUPERVISED MACHINE LEARNING",
-    "description": "Task 1 of the Data Science and Business Analytics Internship under the Graduate Rotational Internship Program at The Sparks Foundation. This project implements a Simple Linear Regression model to predict the percentage of a student based on their number of study hours. The primary objective is to determine the predicted score for a student who studies for 9.25 hours per day.",
+    "description": "Data Science and Business Analytics Internship under the Graduate Rotational Internship Program at The Sparks Foundation. Task: To predict the percentage of a student based on the number of study hours. Simple Linear Regression is used as it involves just 2 variables. Output: To find predicted score if a student studies for 9.25 hrs/day.",
     "identifier": "TSF-SUPERVISED-MACHINE-LEARNING",
     "license": "https://spdx.org/licenses/MIT.html",
     "programmingLanguage": [
@@ -27,10 +27,10 @@
         "Business Analytics",
         "Supervised Learning",
         "Linear Regression",
-        "Python",
+        "Python3",
         "Pandas",
         "Numpy",
-        "Matplotlib",
+        "Matplotlib.pyplot",
         "Seaborn"
     ],
     "relatedLink": [
