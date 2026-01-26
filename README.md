@@ -12,6 +12,8 @@
   
   **[Google Colab](https://colab.research.google.com/github/Amey-Thakur/TSF-SUPERVISED-MACHINE-LEARNING/blob/main/Source%20Code/TSF_INTERNSHIP_TASK_1_SUPERVISED_LEARNING.ipynb)** &nbsp;·&nbsp; **[Kaggle Notebook](https://www.kaggle.com/ameythakur20/tsf-internship-task-1-supervised-learning)** &nbsp;·&nbsp; **[Video Demo](https://www.youtube.com/watch?v=qsO9GyGNWf0)**
 
+  [![TSF Supervised Machine Learning Demo](https://img.youtube.com/vi/qsO9GyGNWf0/0.jpg)](https://www.youtube.com/watch?v=qsO9GyGNWf0)
+
 </div>
 
 ---
