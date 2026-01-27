@@ -10,7 +10,7 @@
 
   A predictive analytics study demonstrating the application of **Ordinary Least Squares (OLS) Regression** to estimate academic performance based on temporal study patterns.
   
-  **[Google Colab](https://colab.research.google.com/github/Amey-Thakur/TSF-SUPERVISED-MACHINE-LEARNING/blob/main/Source%20Code/TSF_INTERNSHIP_TASK_1_SUPERVISED_LEARNING.ipynb)** &nbsp;·&nbsp; **[Kaggle Notebook](https://www.kaggle.com/ameythakur20/tsf-internship-task-1-supervised-learning)** &nbsp;·&nbsp; **[Video Demo](https://www.youtube.com/watch?v=qsO9GyGNWf0)**
+  **[Google Colab](https://colab.research.google.com/github/Amey-Thakur/TSF-SUPERVISED-MACHINE-LEARNING/blob/main/Source%20Code/TSF_INTERNSHIP_TASK_1_SUPERVISED_LEARNING.ipynb)** &nbsp;·&nbsp; **[Kaggle Notebook](https://www.kaggle.com/ameythakur20/tsf-internship-task-1-supervised-learning)** &nbsp;·&nbsp; **[Video Demo](https://www.youtube.com/watch?v=qsO9GyGNWf0)** &nbsp;·&nbsp; **[Live Demo](https://amey-thakur.github.io/TSF-SUPERVISED-MACHINE-LEARNING/interactive/lab/index.html?path=TSF_INTERNSHIP_TASK_1_SUPERVISED_LEARNING.ipynb)**
 
   [![TSF Supervised Machine Learning Demo](https://img.youtube.com/vi/qsO9GyGNWf0/0.jpg)](https://www.youtube.com/watch?v=qsO9GyGNWf0)
 
@@ -259,7 +259,7 @@ Special thanks to the **mentors at The Sparks Foundation** for providing this pl
 
   <br>
 
-  📈 **[TSF-SUPERVISED-MACHINE-LEARNING](https://github.com/Amey-Thakur/TSF-SUPERVISED-MACHINE-LEARNING)**
+  📈 **[TSF-SUPERVISED-MACHINE-LEARNING](https://amey-thakur.github.io/TSF-SUPERVISED-MACHINE-LEARNING/interactive/lab/index.html?path=TSF_INTERNSHIP_TASK_1_SUPERVISED_LEARNING.ipynb)**
 
   ---
 
