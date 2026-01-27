@@ -234,7 +234,7 @@ Copyright © 2021 Amey Thakur & Mega Satish
 <a name="about-this-repository"></a>
 ## About This Repository
 
-**Created & Maintained by**: [Amey Thakur](https://github.com/Amey-Thakur) & [Mega Satish](https://github.com/msatmod)
+**Created & Maintained by**: [Amey Thakur](https://github.com/Amey-Thakur) & [Mega Satish](https://github.com/msatmod)<br>
 **Role**: Data Science & Business Analytics Interns  
 **Program**: Graduate Rotational Internship Program (GRIP)  
 **Organization**: [The Sparks Foundation](https://www.thesparksfoundationsingapore.org/)
