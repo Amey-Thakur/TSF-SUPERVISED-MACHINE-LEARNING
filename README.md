@@ -59,6 +59,11 @@ The simulation is governed by strict **statistical principles** ensuring reprodu
 
 ---
 
+> [!TIP]
+> **Model Applicability**: While this linear model provides a precise mathematical estimation for the given range, extrapolating predictions beyond the observed data range (e.g., studying > 15 hours/day) may yield unrealistic results due to the physical constraints of a 24-hour day.
+
+---
+
 <!-- FEATURES -->
 <a name="methodology"></a>
 ## Features
