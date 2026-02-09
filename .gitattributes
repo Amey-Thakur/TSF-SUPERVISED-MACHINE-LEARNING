@@ -18,6 +18,29 @@
 *.ico binary
 *.pdf binary
 
-# Academic/Scholarly classification
+# LINGUIST OPTIMIZATION - PRECISE PYTHON DOMINANCE
+# Force Python to be the 100% representative language
+*.py linguist-language=Python
+*.py linguist-detectable=true
+*.ipynb linguist-language=Python
+*.ipynb linguist-detectable=true
+
+# Precisely hide HTML and other non-core assets
+"**/*.html" linguist-vendored
+"**/*.html" -linguist-detectable
+"index.html" linguist-vendored
+"index.html" -linguist-detectable
+
+# Hide known oversized directories
+"Mega/**" linguist-vendored
+"Mega/**" -linguist-detectable
+"screenshots/**" linguist-vendored
+"screenshots/**" -linguist-detectable
+"docs/**" linguist-documentation
+"docs/**" -linguist-detectable
+
+# Metadata handled as documentation
 *.md linguist-documentation
-*.ipynb linguist-documentation
+*.cff linguist-documentation
+codemeta.json linguist-documentation
+LICENSE linguist-documentation
