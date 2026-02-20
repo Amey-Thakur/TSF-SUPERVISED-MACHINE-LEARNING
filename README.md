@@ -201,6 +201,13 @@ Launch the analysis kernel to reproduce the findings:
 ```bash
 jupyter notebook "Source Code/TSF_INTERNSHIP_TASK_1_SUPERVISED_LEARNING.ipynb"
 ```
+
+> [!TIP]
+> **Interactive Predictive Analytics | Student Score Estimation**
+> 
+> Explore the high-fidelity **Live Demo** to visualize the **Ordinary Least Squares (OLS)** regression analysis in real-time. The interactive dashboard showcases **Exploratory Data Analysis (EDA)**, **Feature Distribution**, and **Model Validation** results, quantifying the strong positive correlation between study hours and academic outcomes with an R² score of **0.945**.
+>
+> [**Launch Live Demo**](https://amey-thakur.github.io/TSF-SUPERVISED-MACHINE-LEARNING/)
 ---
 
 <!-- USAGE GUIDELINES -->
