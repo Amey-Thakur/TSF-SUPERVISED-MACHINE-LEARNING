@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Supervised Machine Learning - Social Preview</title>
+<!-- Renders the 1280x640 social preview from this repository's own assets. -->
+</head>
+<body>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1280px;height:640px;overflow:hidden;font-family:"Segoe UI",system-ui,sans-serif}
+.card{position:relative;width:1280px;height:640px;overflow:hidden;background:#0f1620}
+.card:before{content:"";position:absolute;inset:0;
+  background:radial-gradient(880px 620px at 74% 46%,rgba(34,139,34,.16),rgba(34,139,34,0) 66%)}
+.left{position:absolute;left:76px;top:0;bottom:0;width:560px;display:flex;flex-direction:column;justify-content:center}
+.k{font-size:13px;font-weight:700;letter-spacing:.20em;color:#5fd35f}
+.h1{margin-top:16px;font-size:58px;font-weight:800;line-height:1.02;letter-spacing:-.025em;color:#f2f6fa}
+.rule{margin:24px 0 20px;width:84px;height:4px;background:#2e8b2e}
+.q{font-size:17px;color:#a8b6c4;line-height:1.66;max-width:490px}
+.q b{color:#e9eff5;font-weight:600}
+.ans{margin-top:22px;display:flex;align-items:baseline;gap:14px}
+.ans .n{font-size:46px;font-weight:800;color:#5fd35f;letter-spacing:-.02em}
+.ans .u{font-size:17px;font-weight:600;color:#a8b6c4}
+.stats{margin-top:20px;display:flex;gap:26px}
+.stat{font-size:14px;color:#8b9aa8}
+.stat b{display:block;margin-top:3px;font-size:19px;font-weight:800;color:#e9eff5}
+.by{margin-top:26px;font-size:18px;font-weight:700;color:#f2f6fa}
+.by span{display:block;font-size:12px;font-weight:700;letter-spacing:.18em;color:#7f8c99;margin-bottom:7px}
+.plot{position:absolute;right:68px;top:50%;transform:translateY(-50%);width:520px;
+  background:#fff;border-radius:12px;padding:16px;box-shadow:0 28px 66px rgba(0,0,0,.55)}
+.plot img{width:100%;display:block;border-radius:6px}
+</style>
+<div class="card">
+  <div class="plot"><img src="screenshots/03-regression-plot.png" alt="Hours studied against percentage scored"></div>
+  <div class="left">
+    <div class="k">THE SPARKS FOUNDATION &middot; INTERNSHIP TASK 1</div>
+    <div class="h1">Supervised<br>Machine Learning</div>
+    <div class="rule"></div>
+    <div class="q">Predicting a student&rsquo;s percentage from <b>hours studied</b>, by linear regression over 25 observations.</div>
+    <div class="ans"><span class="n">93.69</span><span class="u">predicted score for 9.25 hours</span></div>
+    <div class="stats">
+      <div class="stat">MEAN ABSOLUTE ERROR<b>4.18</b></div>
+      <div class="stat">R&sup2; SCORE<b>0.945</b></div>
+    </div>
+    <div class="by"><span>BY</span>Amey Thakur &middot; Mega Satish</div>
+  </div>
+</div>
+</body>
+</html>
