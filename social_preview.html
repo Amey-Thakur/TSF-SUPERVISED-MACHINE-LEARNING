@@ -9,41 +9,43 @@
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{width:1280px;height:640px;overflow:hidden;font-family:"Segoe UI",system-ui,sans-serif}
-.card{position:relative;width:1280px;height:640px;overflow:hidden;background:#0f1620}
-.card:before{content:"";position:absolute;inset:0;
-  background:radial-gradient(880px 620px at 74% 46%,rgba(34,139,34,.16),rgba(34,139,34,0) 66%)}
-.left{position:absolute;left:76px;top:0;bottom:0;width:560px;display:flex;flex-direction:column;justify-content:center}
+.card{position:relative;width:1280px;height:640px;background:#0d141c;overflow:hidden}
+svg{position:absolute;inset:0}
+.tl{position:absolute;left:100px;top:44px;width:540px}
 .k{font-size:13px;font-weight:700;letter-spacing:.20em;color:#5fd35f}
-.h1{margin-top:16px;font-size:58px;font-weight:800;line-height:1.02;letter-spacing:-.025em;color:#f2f6fa}
-.rule{margin:24px 0 20px;width:84px;height:4px;background:#2e8b2e}
-.q{font-size:17px;color:#a8b6c4;line-height:1.66;max-width:490px}
-.q b{color:#e9eff5;font-weight:600}
-.ans{margin-top:22px;display:flex;align-items:baseline;gap:14px}
-.ans .n{font-size:46px;font-weight:800;color:#5fd35f;letter-spacing:-.02em}
-.ans .u{font-size:17px;font-weight:600;color:#a8b6c4}
-.stats{margin-top:20px;display:flex;gap:26px}
-.stat{font-size:14px;color:#8b9aa8}
-.stat b{display:block;margin-top:3px;font-size:19px;font-weight:800;color:#e9eff5}
-.by{margin-top:26px;font-size:18px;font-weight:700;color:#f2f6fa}
-.by span{display:block;font-size:12px;font-weight:700;letter-spacing:.18em;color:#7f8c99;margin-bottom:7px}
-.plot{position:absolute;right:68px;top:50%;transform:translateY(-50%);width:520px;
-  background:#fff;border-radius:12px;padding:16px;box-shadow:0 28px 66px rgba(0,0,0,.55)}
-.plot img{width:100%;display:block;border-radius:6px}
+.h1{margin-top:12px;font-size:46px;font-weight:800;line-height:1.04;letter-spacing:-.02em;color:#f2f6fa}
+.sub{margin-top:12px;font-size:16px;color:#93a2b1;line-height:1.6}
+.ax{position:absolute;font-size:13px;font-weight:700;letter-spacing:.14em;color:#66727e}
+.axx{left:50%;bottom:22px;transform:translateX(-50%)}
+.axy{left:6px;top:50%;transform:translateY(-50%) rotate(-90deg);transform-origin:center}
+.res{position:absolute;right:88px;bottom:104px;text-align:right}
+.res .n{font-size:52px;font-weight:800;color:#5fd35f;letter-spacing:-.02em;line-height:1}
+.res .u{margin-top:7px;font-size:15px;color:#93a2b1}
+.res .m{margin-top:16px;font-size:14px;color:#66727e}
+.res .m b{color:#dbe4ec;font-weight:700}
+.by{position:absolute;left:100px;bottom:22px;font-size:15px;font-weight:600;color:#93a2b1}
+.by b{color:#f2f6fa;font-weight:700}
 </style>
 <div class="card">
-  <div class="plot"><img src="screenshots/03-regression-plot.png" alt="Hours studied against percentage scored"></div>
-  <div class="left">
+  <svg viewBox="0 0 1280 640">
+    <line x1="96" y1="132" x2="96" y2="556" stroke="#fff" stroke-opacity=".055"/><line x1="206.4" y1="132" x2="206.4" y2="556" stroke="#fff" stroke-opacity=".055"/><line x1="316.8" y1="132" x2="316.8" y2="556" stroke="#fff" stroke-opacity=".055"/><line x1="427.2" y1="132" x2="427.2" y2="556" stroke="#fff" stroke-opacity=".055"/><line x1="537.6" y1="132" x2="537.6" y2="556" stroke="#fff" stroke-opacity=".055"/><line x1="648" y1="132" x2="648" y2="556" stroke="#fff" stroke-opacity=".055"/><line x1="758.4" y1="132" x2="758.4" y2="556" stroke="#fff" stroke-opacity=".055"/><line x1="868.8" y1="132" x2="868.8" y2="556" stroke="#fff" stroke-opacity=".055"/><line x1="979.2" y1="132" x2="979.2" y2="556" stroke="#fff" stroke-opacity=".055"/><line x1="1089.6" y1="132" x2="1089.6" y2="556" stroke="#fff" stroke-opacity=".055"/><line x1="1200" y1="132" x2="1200" y2="556" stroke="#fff" stroke-opacity=".055"/><line x1="96" y1="556" x2="1200" y2="556" stroke="#fff" stroke-opacity=".055"/><line x1="96" y1="471.2" x2="1200" y2="471.2" stroke="#fff" stroke-opacity=".055"/><line x1="96" y1="386.4" x2="1200" y2="386.4" stroke="#fff" stroke-opacity=".055"/><line x1="96" y1="301.6" x2="1200" y2="301.6" stroke="#fff" stroke-opacity=".055"/><line x1="96" y1="216.79999999999995" x2="1200" y2="216.79999999999995" stroke="#fff" stroke-opacity=".055"/><line x1="96" y1="132" x2="1200" y2="132" stroke="#fff" stroke-opacity=".055"/>
+    <line x1="96" y1="556" x2="1200" y2="556" stroke="#fff" stroke-opacity=".22"/>
+    <line x1="96" y1="132" x2="96" y2="556" stroke="#fff" stroke-opacity=".22"/>
+    <line x1="184.3" y1="512.3" x2="1155.8" y2="147.6" stroke="#2e8b2e" stroke-width="3"/><circle cx="372.0" cy="467.0" r="8" fill="#5fd35f" fill-opacity=".16"/><circle cx="372.0" cy="467.0" r="4.2" fill="#5fd35f"/><circle cx="659.0" cy="356.7" r="8" fill="#5fd35f" fill-opacity=".16"/><circle cx="659.0" cy="356.7" r="4.2" fill="#5fd35f"/><circle cx="449.3" cy="441.5" r="8" fill="#5fd35f" fill-opacity=".16"/><circle cx="449.3" cy="441.5" r="4.2" fill="#5fd35f"/><circle cx="1034.4" cy="238.0" r="8" fill="#5fd35f" fill-opacity=".16"/><circle cx="1034.4" cy="238.0" r="4.2" fill="#5fd35f"/><circle cx="482.4" cy="428.8" r="8" fill="#5fd35f" fill-opacity=".16"/><circle cx="482.4" cy="428.8" r="4.2" fill="#5fd35f"/><circle cx="261.6" cy="471.2" r="8" fill="#5fd35f" fill-opacity=".16"/><circle cx="261.6" cy="471.2" r="4.2" fill="#5fd35f"/><circle cx="1111.7" cy="182.9" r="8" fill="#5fd35f" fill-opacity=".16"/><circle cx="1111.7" cy="182.9" r="4.2" fill="#5fd35f"/><circle cx="703.2" cy="301.6" r="8" fill="#5fd35f" fill-opacity=".16"/><circle cx="703.2" cy="301.6" r="4.2" fill="#5fd35f"/><circle cx="1012.3" cy="212.6" r="8" fill="#5fd35f" fill-opacity=".16"/><circle cx="1012.3" cy="212.6" r="4.2" fill="#5fd35f"/><circle cx="394.1" cy="450.0" r="8" fill="#5fd35f" fill-opacity=".16"/><circle cx="394.1" cy="450.0" r="4.2" fill="#5fd35f"/><circle cx="946.1" cy="195.6" r="8" fill="#5fd35f" fill-opacity=".16"/><circle cx="946.1" cy="195.6" r="4.2" fill="#5fd35f"/><circle cx="747.4" cy="293.1" r="8" fill="#5fd35f" fill-opacity=".16"/><circle cx="747.4" cy="293.1" r="4.2" fill="#5fd35f"/><circle cx="592.8" cy="382.2" r="8" fill="#5fd35f" fill-opacity=".16"/><circle cx="592.8" cy="382.2" r="4.2" fill="#5fd35f"/><circle cx="460.3" cy="377.9" r="8" fill="#5fd35f" fill-opacity=".16"/><circle cx="460.3" cy="377.9" r="4.2" fill="#5fd35f"/><circle cx="217.4" cy="483.9" r="8" fill="#5fd35f" fill-opacity=".16"/><circle cx="217.4" cy="483.9" r="4.2" fill="#5fd35f"/><circle cx="1078.6" cy="153.2" r="8" fill="#5fd35f" fill-opacity=".16"/><circle cx="1078.6" cy="153.2" r="4.2" fill="#5fd35f"/><circle cx="372.0" cy="428.8" r="8" fill="#5fd35f" fill-opacity=".16"/><circle cx="372.0" cy="428.8" r="4.2" fill="#5fd35f"/><circle cx="305.8" cy="454.2" r="8" fill="#5fd35f" fill-opacity=".16"/><circle cx="305.8" cy="454.2" r="4.2" fill="#5fd35f"/><circle cx="769.4" cy="271.9" r="8" fill="#5fd35f" fill-opacity=".16"/><circle cx="769.4" cy="271.9" r="4.2" fill="#5fd35f"/><circle cx="913.0" cy="263.4" r="8" fill="#5fd35f" fill-opacity=".16"/><circle cx="913.0" cy="263.4" r="4.2" fill="#5fd35f"/><circle cx="394.1" cy="428.8" r="8" fill="#5fd35f" fill-opacity=".16"/><circle cx="394.1" cy="428.8" r="4.2" fill="#5fd35f"/><circle cx="625.9" cy="327.0" r="8" fill="#5fd35f" fill-opacity=".16"/><circle cx="625.9" cy="327.0" r="4.2" fill="#5fd35f"/><circle cx="515.5" cy="407.6" r="8" fill="#5fd35f" fill-opacity=".16"/><circle cx="515.5" cy="407.6" r="4.2" fill="#5fd35f"/><circle cx="857.8" cy="233.8" r="8" fill="#5fd35f" fill-opacity=".16"/><circle cx="857.8" cy="233.8" r="4.2" fill="#5fd35f"/><circle cx="957.1" cy="191.4" r="8" fill="#5fd35f" fill-opacity=".16"/><circle cx="957.1" cy="191.4" r="4.2" fill="#5fd35f"/><text x="316.8" y="586" fill="#7f8c99" font-size="15" text-anchor="middle">2</text><text x="537.6" y="586" fill="#7f8c99" font-size="15" text-anchor="middle">4</text><text x="758.4" y="586" fill="#7f8c99" font-size="15" text-anchor="middle">6</text><text x="979.2" y="586" fill="#7f8c99" font-size="15" text-anchor="middle">8</text><text x="1200" y="586" fill="#7f8c99" font-size="15" text-anchor="middle">10</text><text x="80" y="476.2" fill="#7f8c99" font-size="15" text-anchor="end">20</text><text x="80" y="391.4" fill="#7f8c99" font-size="15" text-anchor="end">40</text><text x="80" y="306.6" fill="#7f8c99" font-size="15" text-anchor="end">60</text><text x="80" y="221.79999999999995" fill="#7f8c99" font-size="15" text-anchor="end">80</text><text x="80" y="137" fill="#7f8c99" font-size="15" text-anchor="end">100</text>
+  </svg>
+  <div class="tl">
     <div class="k">THE SPARKS FOUNDATION &middot; INTERNSHIP TASK 1</div>
     <div class="h1">Supervised<br>Machine Learning</div>
-    <div class="rule"></div>
-    <div class="q">Predicting a student&rsquo;s percentage from <b>hours studied</b>, by linear regression over 25 observations.</div>
-    <div class="ans"><span class="n">93.69</span><span class="u">predicted score for 9.25 hours</span></div>
-    <div class="stats">
-      <div class="stat">MEAN ABSOLUTE ERROR<b>4.18</b></div>
-      <div class="stat">R&sup2; SCORE<b>0.945</b></div>
-    </div>
-    <div class="by"><span>BY</span>Amey Thakur &middot; Mega Satish</div>
+    <div class="sub">Hours studied against percentage scored, over 25 students.</div>
   </div>
+  <div class="res">
+    <div class="n">93.69</div>
+    <div class="u">predicted for 9.25 hours studied</div>
+    <div class="m">MAE <b>4.18</b> &nbsp;&middot;&nbsp; R&sup2; <b>0.945</b></div>
+  </div>
+  <div class="ax axx">HOURS STUDIED</div>
+  <div class="ax axy">PERCENTAGE SCORED</div>
+  <div class="by"><b>Amey Thakur</b> &middot; <b>Mega Satish</b></div>
 </div>
 </body>
 </html>
